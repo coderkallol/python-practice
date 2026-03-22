@@ -111,7 +111,7 @@ while True:
         continue
 
     age = int(input("Enter your age: "))
-    if age <= 20:
+    if age >= 20:
         print("Thanks")
         break
     else:
